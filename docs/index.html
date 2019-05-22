@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Proyecto con JacaScript</title>
+
+  <!--Estilos-->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!--Slider-->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <!--Momentjs / Librería para formatear fecha-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js" charset="utf-8"></script>
+
+
+  <!--Scripts-->
+  <script  type="text/javascript" src="js/main.js" charset="utf-8"></script>
+  <script  type="text/javascript" src="js/slider.js" charset="utf-8"></script>
+
+
+</head>
+<body>
+
+  <div id="selectorTheme">
+    <div id="toGreen">
+
+    </div>
+
+    <div id="toRed">
+
+    </div>
+
+    <div id="toBlue">
+
+    </div>
+  </div>
+
+  <section id="global">
+    <!--Header-->
+    <header>
+      <div id="logo">
+        <h1>Proyecto js</h1>
+      </div>
+
+      <!--Menu-->
+      <div class="clearfix"></div>
+
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="reloj.html">Reloj</a></li>
+          <li><a href="about.html">Sobre mí</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Slider-->
+    <div id="slider">
+      <div class="galeria">
+        <div><img src="img/hojas.jpg" title="Funky roots"></div>
+        <div><img src="img/rojo.jpg" title="The long and winding road"></div>
+        <div><img src="img/cielo.jpg" title="Happy trees"></div>
+      </div>
+    </div>
+
+    <!--Content-->
+    <section id="content">
+
+      <div id="posts">
+        <!--Cargar post desde JSON-->
+      </div>
+
+      <aside id="sidebar">
+        <div id="about">
+          <h4><span>¿Quién soy?</span></h4>
+          <img src="img/caracol.jpg">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+
+        <div id="login">
+          <h4><span>Indentifícate</span></h4>
+          <form action="">
+            <label for="name">Nombre: </label>
+            <input id="formName" type="text" name="name" value="" placeholder="Ingresa tu nombre">
+
+            <label for="name">Password: </label>
+            <input type="password" name="password" value="" placeholder="Ingresa tu password">
+
+            <label for="name">Email: </label>
+            <input type="email" name="Email" value="" placeholder="Ingresa tu correo">
+
+            <input type="submit" value="entrar">
+          </form>
+        </div>
+      </aside>
+      <div class="clearfix"></div>
+
+    </section> <!--Section-->
+
+  </section> <!--global-->
+
+  <!--Footer-->
+  <footer>
+    Master en JavaScript &copy;
+
+    <a href="#" class="subir">Ir arriba</a>
+  </footer>
+
+</body>
+</html>

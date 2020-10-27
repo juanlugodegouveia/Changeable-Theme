@@ -1,10 +1,10 @@
-# Diseño Front End - Changeable Theme.
+# Front End Design - Changeable Theme.
 
-Un diseño simple con el cual podrían guisarse para futuros proyectos, la intención es dar una idea de como podrían realizarlo y ahorrar tiempo.
+A simple design with which they could be cooked for future projects, the intention is to give an idea of how they could do it and save time.
 
-El diseño no es totalmente responsivo, por como se indica anteriormente es para tener una idea del diseño y código, los media queries deberan ser escritos a gusto.
+The design is not fully responsive, as indicated above is to get an idea of the design and code, the media queries should be written.
 
-Vista Previa: https://juanlugodegouveia.github.io/Changeable-Theme/
+Preview: https://juanlugodegouveia.github.io/Changeable-Theme/
 
 ## Copyright
 
